@@ -42,7 +42,7 @@ public class Testes {
         login.btnCriarConta();
         cadastro.preencherCadastro("masculino","Rodrigo","Pereira","rodrigoteste30@gmail.com",
                 "123456","5","11","1975","sim","nao",
-                "quadra 04 conjunto B casa 03","guara","Alabama","56524","61856235477","teste@gmail.com");
+                "quadra 04 conjunto B casa 05","guara","Alabama","56524","61856235477","teste@gmail.com");
         cadastro.confirmaCadastro();
         minhaConta.getH1Titulo().shouldHave(Condition.text("My Account"));
 
